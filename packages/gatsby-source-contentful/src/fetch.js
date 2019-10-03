@@ -137,7 +137,7 @@ function pagedGet(
   method,
   query = {},
   skip = 0,
-  pageLimit = 1000,
+  pageLimit = 500,
   aggregatedResponse = null
 ) {
   return client[method]({
